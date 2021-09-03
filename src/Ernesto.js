@@ -1,21 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
-import React from 'react';
-import {Link } from "react-router-dom";
-
-
-function App() {
+function Ernesto() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to team 14 homepage
+          Welcome to Ernesto's page
         </p>
-        
-        <Link to="/Ernesto">Ernesto!</Link>
-
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -29,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Ernesto;

@@ -4,10 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import Ernesto from './Ernesto';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 ReactDOM.render(
+  <BrowserRouter>
+
+
+  <Switch>
+    <Route path="/Ernesto" component={Ernesto} />
+  </Switch>
+
+
+
+
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
+  </React.StrictMode>
+
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
