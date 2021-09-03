@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function Andres() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to Andres's page
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
+        <h1>
+          Andres Botia
+        </h1>
+        <p>Computer Science Major</p>
+        <a href="https://www.linkedin.com/in/andres-botia/" >
+            <h1>LinkedIn</h1>
+            </a>
+        
       </header>
     </div>
   );
