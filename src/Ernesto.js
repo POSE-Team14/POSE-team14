@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function Ernesto() {
   return (
@@ -7,7 +8,7 @@ function Ernesto() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Ernesto's page
+          Welcome to Ernesto's page!
         </p>
         <a
           className="App-link"
