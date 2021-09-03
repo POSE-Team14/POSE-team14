@@ -10,20 +10,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
           Welcome to team 14 homepage
-        </p>
+        </h1>
         
         <Link to="/Ernesto">Ernesto!</Link>
+        <Link to="/Andres">Andres!</Link>
+        <Link to="/Ahmad">Ahmad!</Link>
+        <Link to="/Charles">Charles!</Link>
+        <Link to="/John">John!</Link>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
       </header>
     </div>
   );
