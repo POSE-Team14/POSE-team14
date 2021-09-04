@@ -16,7 +16,8 @@ ReactDOM.render(
 
 
   <Switch>
-    <Route exact strict path="/Ernesto" component={Ernesto} />
+    <Route exact strict path="/Home" component={App} />
+    <Route path="/Ernesto" component={Ernesto} />
     <Route path="/Andres" component={Andres} />
     <Route path="/Ahmad" component={Ahmad} />
     <Route path="/Charles" component={Charles} />
