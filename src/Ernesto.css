@@ -1,0 +1,12 @@
+.bio{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.photo{
+    height: 12em;
+    pointer-events: none;
+}
