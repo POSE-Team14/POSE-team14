@@ -16,7 +16,7 @@ ReactDOM.render(
 
 
   <Switch>
-    <Route exact strict path="/Home" component={App} />
+    <Route exact path="/" component={App} />
     <Route path="/Ernesto" component={Ernesto} />
     <Route path="/Andres" component={Andres} />
     <Route path="/Ahmad" component={Ahmad} />
@@ -24,13 +24,6 @@ ReactDOM.render(
     <Route path="/John" component={John} />
     
   </Switch>
-
-
-
-
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
 
   </BrowserRouter>,
   document.getElementById('root')

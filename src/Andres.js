@@ -8,7 +8,7 @@ function Andres() {
       <header className="App-header">
        
 
-        <img style={{height: '400px',width: '400px'}}src={andres}/>
+        <img style={{height: '400px',width: '400px'}}src={andres} alt='Andres'/>
         <h1>
           Andres Botia
         </h1>
