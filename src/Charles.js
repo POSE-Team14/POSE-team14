@@ -1,6 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Charles from './Images/charles.jpg';
+import charles from './Images/charles.jpg';
+import {Link } from "react-router-dom";
 
 function Charles() {
   return (
